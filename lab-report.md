@@ -1,7 +1,7 @@
 Lab 3 Report
 ================
 Tyler Edvall
-2021-01-28
+2021-02-02
 
 Instructions for this lab report can be found on [Your assignment
 section of Lab Assignment 3 Introduction to
@@ -135,9 +135,11 @@ way to display the data.
 
 ## Links to peer review
 
-I reviewed \_\_\_’s lab report at this URL: \_\_\_
+I reviewed Kelsey Leach’s lab report at this URL:
+<https://github.com/BIOL275-MSUM/lab-3-intro-to-ggplot-kelseyaleach>
 
-\_\_\_ reviewed my lab report at this URL: \_\_\_
+Kelsey Leach reviewed my lab report at this URL:
+<https://github.com/BIOL275-MSUM/lab-3-intro-to-ggplot-tdedvall.git>
 
 ## Session Info
 
@@ -157,7 +159,7 @@ sessioninfo::session_info()
     ##  collate  English_United States.1252  
     ##  ctype    English_United States.1252  
     ##  tz       America/Chicago             
-    ##  date     2021-01-28                  
+    ##  date     2021-02-02                  
     ## 
     ## - Packages -------------------------------------------------------------------
     ##  package     * version date       lib source        

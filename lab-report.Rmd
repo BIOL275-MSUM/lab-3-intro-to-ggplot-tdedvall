@@ -128,9 +128,9 @@ Bar graph, since the bird data was categorical. That would be the best way to di
 
 ## Links to peer review
 
-I reviewed \_\_\_'s lab report at this URL: \_\_\_
+I reviewed Kelsey Leach's lab report at this URL: https://github.com/BIOL275-MSUM/lab-3-intro-to-ggplot-kelseyaleach
 
-\_\_\_ reviewed my lab report at this URL: \_\_\_
+Kelsey Leach reviewed my lab report at this URL: https://github.com/BIOL275-MSUM/lab-3-intro-to-ggplot-tdedvall.git
 
 ## Session Info
 
