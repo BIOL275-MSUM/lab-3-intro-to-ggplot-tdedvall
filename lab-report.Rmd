@@ -15,6 +15,10 @@ Instructions for this lab report can be found on [Your assignment section of Lab
 
 # spermatophore mass --------------------------------------------------------
 
+# load packages -----------------------------------------------------------
+
+library(tidyverse)
+
 firefly_data <- read_csv("https://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02q19FireflySpermatophoreMass.csv")
 
 firefly_data                  
@@ -63,12 +67,14 @@ The mode.
 ## Bird orders
 
 I read the data using the code provided by the instructor. The dataset is from the auk package and was originally named ebird_taxonomy. I converted it to a tibble, removed non-species taxa, and named the new dataset birds.
-
+```{r}
 
 library(auk)                          # load the auk package
 birds <- ebird_taxonomy %>%           # start with the ebird_taxonomy data
   as_tibble() %>%                     # tibbles print better in the console
   filter(category == "species")       # remove non-species taxa
+
+```
 
 > E. How many bird species are in the new birds dataset? How did you find out?
 
@@ -87,6 +93,10 @@ nrow(distinct(birds, order))
 ```{r}
 
 # Bird orders data ------------------------------------------------------
+
+# load packages -----------------------------------------------------------
+
+library(tidyverse)
 
 library(auk)                          # load the auk package
 birds <- ebird_taxonomy %>%           # start with the ebird_taxonomy data
